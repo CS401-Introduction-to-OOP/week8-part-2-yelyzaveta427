@@ -13,10 +13,6 @@ public static class BoxTester
         Console.WriteLine($"Unboxed c - {c}");
 
         //Оскільки b це окрема копія в купі, то значення b не зміниться при зміні a
-// TODO:
-// 1. box a into object
-// 2. unbox back into int
-// 3. print all values
-// 4. add comments explaining what happens
+
     }
 }
