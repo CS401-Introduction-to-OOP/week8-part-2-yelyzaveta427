@@ -1,0 +1,22 @@
+namespace Week8;
+
+public static class BoxTester
+{
+    public static void Test()
+    {
+        int a = 10;
+        object b = a;
+        int c = (int)b;
+
+        Console.WriteLine($"Original a - {a}");
+        Console.WriteLine($"Boxed b - {b}");
+        Console.WriteLine($"Unboxed c - {c}");
+
+        //Оскільки b це окрема копія в купі, то значення b не зміниться при зміні a
+// TODO:
+// 1. box a into object
+// 2. unbox back into int
+// 3. print all values
+// 4. add comments explaining what happens
+    }
+}
