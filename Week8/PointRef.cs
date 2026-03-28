@@ -6,7 +6,7 @@ public class PointRef
     public int Y { get; set; }
     public void Print()
     {
-        Console.WriteLine($"Coordinates - ({X}, {Y})");
+        Console.WriteLine($"Class PointRef: Coordinates - ({X}, {Y})");
     }
 
 }

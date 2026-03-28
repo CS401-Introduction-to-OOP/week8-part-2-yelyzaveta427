@@ -6,6 +6,6 @@ public struct Point
     public int Y { get; set; }
     public void Print()
     {
-        Console.WriteLine($"Coordinates - ({X}, {Y})");
+        Console.WriteLine($"Class Point: Coordinates - ({X}, {Y})");
     }
 }
