@@ -7,7 +7,7 @@ class Program
     {
         Point p1 = new Point { X = 1, Y = 2 };
         Point p2 = p1;
-        p2.X = 10;
+        p2.X = 2;
         p1.Print();
         p2.Print();
         
